@@ -35,7 +35,7 @@
 
 function loadApp() {
 
- 	$('#canvas').fadeIn(1000);
+ 	$('#canvas').fadeIn(3333);
 
  	var flipbook = $('.magazine');
 
@@ -60,7 +60,7 @@ function loadApp() {
 
 			// Duration in millisecond
 
-			duration: 1000,
+			duration: 1234,
 
 			// Enables gradients
 
@@ -388,9 +388,9 @@ function loadApp() {
 
 yepnope({
 	test : Modernizr.csstransforms,
-	yep: ['../../lib/turn.min.js'],
-	nope: ['../../lib/turn.html4.min.js', 'css/jquery.ui.html4.css'],
-	both: ['../../lib/zoom.min.js', 'css/jquery.ui.css', 'js/magazine.js', 'css/magazine.css'],
+	yep: ['lib/turn.min.js'],
+	nope: ['lib/turn.html4.min.js', 'css/jquery.ui.html4.css'],
+	both: ['lib/zoom.min.js', 'css/jquery.ui.css', 'js/magazine.js', 'css/magazine.css'],
 	complete: loadApp
 });
 

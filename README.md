@@ -1,2 +1,2 @@
-# flip-magazone
-multiple library concatenation to create flip book magazine 
+# the-flip-project
+flip book modified pdf structuring
